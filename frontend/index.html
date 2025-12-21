@@ -768,7 +768,7 @@
                             
                             jobsHTML += `
                                 <tr>
-                                    <td>${job.job_id || 'N/A'}</td>
+                                    <td>${job.job_id || '—'}</td>
                                     <td class="hash ${hashClass}" title="${job.prevhash || 'N/A'}">${job.prevhash ? job.prevhash.substring(0, 20) + '...' : 'N/A'}</td>
                                     <td>${time}</td>
                                     <td class="hash-age ${ageClass}">${age}s ago</td>

@@ -21,7 +21,7 @@ def normalize(source_type, data):
             # Observer hash is already in the correct byte order
             return {
                 "source": "observer",
-                "job_id": data.get("coinbase_tag") or data.get("pool_name"),
+                "job_id": None, # Observer doesn't provide actual job IDs. Maybe do away with job_id entirely?
                 "prevhash": data.get("prev_hash"),
                 "timestamp": _safe_ts(data.get("job_timestamp") or data.get("header_time"))
             }
