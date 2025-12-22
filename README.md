@@ -25,8 +25,8 @@ Follow these simple steps to run locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/TrustlessMiner/blockstream-analyzer.git
-cd blockstream-analyzer
+git clone git@github.com:TrustlessMiner/StratumScope.git
+cd StratumScope
 ```
 ### 2. Create a virtual environment
 ```bash
