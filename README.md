@@ -40,7 +40,10 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 ### 4. Run backend server
 ```bash
-python run.py 
+python run.py
+
+or
+python app.py
 
 or python3 in some cases
 ```
